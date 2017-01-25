@@ -11,6 +11,7 @@
 		<spring.version>3.2.5.RELEASE</spring.version>
 		<spring.security.version>3.2.3.RELEASE</spring.security.version>
 		<log4j.version>1.2.17</log4j.version>
+		<jstl.version>1.2</jstl.version>
 	</properties>
 
 	<dependencies>
@@ -40,6 +41,26 @@
 			<scope>provided</scope>
 		</dependency>
 
+		<!-- Spring Security -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-web</artifactId>
+			<version>${spring.security.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-config</artifactId>
+			<version>${spring.security.version}</version>
+		</dependency>
+
+		<!-- jstl for jsp page -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>${jstl.version}</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -61,7 +82,7 @@
 					<path>/</path>
 					<port>8080</port>
 					<systemProperties>
-						<system.loglevel>INFO</system.loglevel>												
+						<system.loglevel>INFO</system.loglevel>
 					</systemProperties>
 				</configuration>
 			</plugin>
