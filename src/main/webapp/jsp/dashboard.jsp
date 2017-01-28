@@ -18,9 +18,9 @@
       border-radius: 0;
     }
     
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) 
     .row.content {height: 450px}
-    
+    */
     /* Set gray background color and 100% height */
     .sidenav {
       padding-top: 20px;
@@ -41,7 +41,7 @@
         height: auto;
         padding: 15px;
       }
-      .row.content {height:auto;} 
+      /* .row.content {height:auto;} */ 
     }
 	    
 	.dropdown-menu li:hover .sub-menu {
@@ -149,7 +149,7 @@
   </div>
 </nav>
   
-<div class="container-fluid text-center">    
+<div class="container-fluid text-center" style="height:82%">    
   <div class="row content">
     <div class="col-sm-2 sidenav">
       <!-- <p><a href="#">Link</a></p>
