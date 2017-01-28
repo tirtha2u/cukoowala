@@ -1,12 +1,7 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#"><img class="img-responsive" src="${pageContext.request.contextPath}/images/cocku.jpg" alt="Logo"></a>
+    <div class="navbar-header">      
+      <a class="navbar-brand" href="#"><img class="img-responsive" src="${pageContext.request.contextPath}/images/hen.jpg" alt="Logo" style="height:50px;padding-bottom:10px"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
