@@ -1,6 +1,6 @@
 This is a spring boot application. Spring security is used to secure this applicaiton.
 
----------------------------------
+-------------------------------
 
 1. To build this application
 
