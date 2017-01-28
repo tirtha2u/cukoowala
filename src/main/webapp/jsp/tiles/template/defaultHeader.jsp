@@ -45,7 +45,7 @@
 		<li class="dropdown">
 		  <a href="#" data-toggle="dropdown" class="dropdown-toggle">Reports <b class="caret"></b></a>
 		  <ul class="dropdown-menu" id="menu1">		   
-		    <li><a href="#">Stock Register</a></li>
+		    <li><a href="${contextPath}/admin/stockRegister">Stock Register</a></li>
 		    <li><a href="#">Sales Register</a></li>
 		  </ul>
 		</li>       

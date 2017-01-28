@@ -9,3 +9,12 @@ mvn clean package
 2. To run this application
 
 java -jar target\cukoo-0.0.1-SNAPSHOT.jar
+
+To buid in eclipse:
+---------------------
+clean package
+
+
+To run in eclipse:
+---------------------
+spring-boot:run
