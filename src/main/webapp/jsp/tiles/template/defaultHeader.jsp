@@ -60,8 +60,7 @@
 			Welcome : ${pageContext.request.userPrincipal.name} | <a
 				href="javascript:formSubmit()"> Logout</a>
 		</h2> --%>
-	  <c:url value="/logout" var="logoutUrl" />
-	  <form action="${logoutUrl}" method="get" id="logoutForm">
+	  <form action="/logout" method="post" id="logoutForm">
 		  <input type="hidden" name="${_csrf.parameterName}"
 			value="${_csrf.token}" />
 	      <ul class="nav navbar-nav navbar-right">
