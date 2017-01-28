@@ -20,6 +20,7 @@
 		<log4j.version>1.2.17</log4j.version>
 		<jstl.version>1.2</jstl.version> -->
 		<java.version>1.8</java.version>
+		<apachetiles.version>3.0.5</apachetiles.version>
 	</properties>
 
 	<dependencies>
@@ -143,6 +144,28 @@
             	<artifactId>spring-boot-devtools</artifactId>
             	<optional>true</optional>
         </dependency> -->
+        
+         <!-- Apache Tiles -->
+        <dependency>
+            <groupId>org.apache.tiles</groupId>
+            <artifactId>tiles-core</artifactId>
+            <version>${apachetiles.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tiles</groupId>
+            <artifactId>tiles-api</artifactId>
+            <version>${apachetiles.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tiles</groupId>
+            <artifactId>tiles-servlet</artifactId>
+            <version>${apachetiles.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tiles</groupId>
+            <artifactId>tiles-jsp</artifactId>
+            <version>${apachetiles.version}</version>
+        </dependency>    
 
 	</dependencies>
 
