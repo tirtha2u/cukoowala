@@ -1,7 +1,7 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@page session="true"%>
 
-<div class="col-sm-8 text-left"> 
+<div class="col-sm-8 text-left" style="padding-top:15px"> 
    	<div class="panel panel-info">
 	  	<div class="panel-heading">Stock Register</div>
 	  	<div class="panel-body">		  	

@@ -30,7 +30,7 @@
        <put-attribute name="body" value="/jsp/pages/hello.jsp" />  
    </definition>
    
-   <!-- Hello Page -->
+   <!-- Login Page -->
    <definition name="login" extends="base-definition-without-layout" >  
        <put-attribute name="title" value="Login" />  
        <put-attribute name="body" value="/jsp/pages/login.jsp" />  
