@@ -35,9 +35,9 @@
        <put-attribute name="title" value="Login" />  
        <put-attribute name="body" value="/jsp/pages/login.jsp" />  
    </definition>
-   <!-- Item Master -->
-   <definition name="itemMaster" extends="base-definition-without-layout" >  
-       <put-attribute name="title" value="Item Master" />  
+   <!-- Item Master Page -->
+   <definition name="itemMaster" extends="base-definition" >  
+       <put-attribute name="title" value="ItemMaster" />  
        <put-attribute name="body" value="/jsp/pages/itemMaster.jsp" />  
    </definition>   
   
