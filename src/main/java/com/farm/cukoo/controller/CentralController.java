@@ -61,5 +61,15 @@ public class CentralController {
 		return model;
 
 	}
+	
+	@RequestMapping(value = "/admin/stockRegister", method = RequestMethod.GET)
+	public ModelAndView stockRegisterPage() {
 
+		ModelAndView model = new ModelAndView("stockRegister");
+		model.addObject("title", "Spring Security Custom Login Form");
+		model.addObject("message", "This is protected page!");
+
+		return model;
+
+	}
 }
