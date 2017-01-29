@@ -8,6 +8,8 @@
        template="/jsp/tiles/layouts/defaultLayout.jsp">  
        <put-attribute name="title" value="" />  
        <put-attribute name="header" value="/jsp/tiles/template/defaultHeader.jsp" />
+       <put-attribute name="leftPanel" value="/jsp/tiles/template/leftPanel.jsp" />
+       <put-attribute name="rightPanel" value="/jsp/tiles/template/rightPanel.jsp" />
        <put-attribute name="footer" value="/jsp/tiles/template/defaultFooter.jsp" />  
    </definition>  
     <!-- Base Definition without header & Footer -->
@@ -34,7 +36,7 @@
        <put-attribute name="body" value="/jsp/pages/login.jsp" />  
    </definition>    
   
-  <!-- Home Page -->
+  <!-- Stock Register Page -->
    <definition name="stockRegister" extends="base-definition">  
        <put-attribute name="title" value="StockRegister" />  
        <put-attribute name="body" value="/jsp/pages/stockRegister.jsp" />  
