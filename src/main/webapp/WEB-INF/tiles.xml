@@ -42,4 +42,10 @@
        <put-attribute name="body" value="/jsp/pages/stockRegister.jsp" />  
    </definition>
    
+   <!-- Sales Register Page -->
+   <definition name="salesRegister" extends="base-definition">  
+       <put-attribute name="title" value="SalesRegister" />  
+       <put-attribute name="body" value="/jsp/pages/salesRegister.jsp" />  
+   </definition>
+   
 </tiles-definitions>

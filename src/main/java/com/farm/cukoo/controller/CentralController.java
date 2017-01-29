@@ -55,7 +55,17 @@ public class CentralController {
 	public ModelAndView stockRegisterPage() {
 
 		ModelAndView model = new ModelAndView("stockRegister");
-		model.addObject("title", "Spring Security Custom Login Form");
+		model.addObject("title", "Spring Security Stock Register Form");
+		model.addObject("message", "This is protected page!");
+
+		return model;
+
+	}
+	@RequestMapping(value = "/admin/salesRegister", method = RequestMethod.GET)
+	public ModelAndView salesRegisterPage() {
+
+		ModelAndView model = new ModelAndView("salesRegister");
+		model.addObject("title", "Spring Security Sales Register Form");
 		model.addObject("message", "This is protected page!");
 
 		return model;
