@@ -32,6 +32,11 @@
    <definition name="login" extends="base-definition-without-layout" >  
        <put-attribute name="title" value="Login" />  
        <put-attribute name="body" value="/jsp/pages/login.jsp" />  
-   </definition>    
+   </definition>
+   <!-- Item Master -->
+   <definition name="itemMaster" extends="base-definition-without-layout" >  
+       <put-attribute name="title" value="Item Master" />  
+       <put-attribute name="body" value="/jsp/pages/itemMaster.jsp" />  
+   </definition>   
   
 </tiles-definitions>

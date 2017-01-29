@@ -32,6 +32,17 @@ public class CentralController {
 
 	}
 	
+	@RequestMapping(value = "/admin/itemMaster", method = RequestMethod.GET)
+	public ModelAndView itemMasterPage() {
+
+		ModelAndView model = new ModelAndView("itemMaster");
+		model.addObject("title", "Item Master");
+		model.addObject("message", "This is protected page!");
+
+		return model;
+
+	}
+	
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public ModelAndView login(
 		@RequestParam(value = "error", required = false) String error,
