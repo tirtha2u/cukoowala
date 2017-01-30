@@ -69,6 +69,27 @@
 	    top: 11px;
 	    left: -6px;
 	}
+	/*Dashboard used CSS and to moved into common css*/
+	.panel1 {   
+	text-align: center; 
+    font-size: 50px;
+    color: #006600;
+	}
+	.panel2 {   
+	text-align: center; 
+    font-size: 50px;
+    color: red;
+	}
+	.panel3 {   
+	text-align: center; 
+    font-size: 16px;
+    color: #003366;
+	}
+	.panel4 {   
+	text-align: center; 
+    font-size: 16px;
+    color: #003366;
+	}
   </style>  
 </head>  
 <body>
