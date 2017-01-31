@@ -6,9 +6,10 @@
 <head>
   <title><tiles:getAsString name="title" /></title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/css/common.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/common.css">
+  
 </head>  
 <body>
 	<tiles:insertAttribute name="header" />
@@ -27,4 +28,19 @@
 	</div>     
 	<tiles:insertAttribute name="footer" />	
 </body>
-</html>
+
+<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>  
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+	    
+	    $('#example1').datepicker({
+	        format: "dd/mm/yyyy"
+	    });  
+	
+	});
+	function formSubmit() {
+		document.getElementById("logoutForm").submit();
+	}
+</script> 

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse" id="navBar">
   <div class="container-fluid">
     <div class="navbar-header">      
       <a class="navbar-brand" href="#"><img class="img-responsive" src="${pageContext.request.contextPath}/images/hen.jpg" alt="Logo" style="height:50px;padding-bottom:10px"></a>
@@ -32,7 +32,7 @@
 		<li class="dropdown">
 		  <a href="#" data-toggle="dropdown" class="dropdown-toggle">Transactions <b class="caret"></b></a>
 		  <ul class="dropdown-menu" id="menu1">		   
-		    <li><a href="#">Stock Entry</a></li>
+		    <li><a href="${contextPath}/admin/stockEntry">Stock Entry</a></li>
 		    <li><a href="#">Sales Entry</a></li>
 		  </ul>
 		</li>

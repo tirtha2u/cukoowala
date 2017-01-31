@@ -75,4 +75,12 @@ public class CentralController {
 		return model;
 
 	}
+	
+	@RequestMapping(value = "/admin/stockEntry", method = RequestMethod.GET)
+	public ModelAndView stockEntryPage() {
+
+		ModelAndView model = new ModelAndView("stockEntry");
+		model.addObject("title", "Stock Entry");
+		return model;
+	}
 }
