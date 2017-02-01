@@ -2,11 +2,12 @@
 <%@ page session="true"%>
 <style>
 form {
-    border: 3px solid #f1f1f1;
+    /* border: 3px solid #f1f1f1;
 	width: 35%;
-	height:65%;
+	height:65%; */
 	align: "center";
 	margin: 0 auto;
+	padding-top: 30px;
 }
 
 input[type=text], input[type=password] {
@@ -38,15 +39,19 @@ button {
 .imgcontainer {
     text-align: center;
     margin: 24px 0 12px 0;
+    padding-top: 6px;
 }
 
 img.avatar {
-    width: 40%;
-    border-radius: 40%;
+    width: 45%;
+    border-radius: 50%;
 }
 
 .container {
     padding: 15px;
+}
+.container1 {
+    padding-left: 15px;
 }
 
 span.psw {
@@ -65,7 +70,7 @@ span.psw {
     }
 }
 </style>
-<body>
+<body bgcolor="#99ccff">
 
 <%-- <c:if test="${not empty error}">
 	<div class="error">${error}</div>
@@ -76,9 +81,9 @@ span.psw {
 		
 <form name='loginForm'
 			action="<c:url value='/login' />" method='POST'>
-<div>
+<div style="width:320px;height:410px;margin:0 auto;background:#006699">
   <div class="imgcontainer">
-    <img src="${pageContext.request.contextPath}/images/cocku.jpg" alt="logo" class="avatar">
+    <img src="${pageContext.request.contextPath}/images/avatar_icon.png" alt="logo" class="avatar">
   </div>
 
   <div class="container">
@@ -86,11 +91,13 @@ span.psw {
     <input type="text" placeholder="Enter Username" name="username" required>
     
     <label><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="password" required>   
-    
-    <input type="checkbox" checked="checked"> Remember me
+    <input type="password" placeholder="Enter Password" name="password" required>  
   </div>
-
+  
+  <div class="container1">
+	<input type="checkbox" checked="checked"> Remember me
+  </div>
+  
   <div class="container" >
     <input name="submit" class="loginbtn" type="submit"	value="Login" />
     <span class="psw">Forgot <a href="#">password?</a></span>

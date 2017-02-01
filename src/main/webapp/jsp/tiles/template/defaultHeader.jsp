@@ -45,9 +45,9 @@
 		  </ul>
 		</li>       
         
-        <li><a href="#">About Us</a></li>
+        <li><a href="${contextPath}/admin/aboutUs">About Us</a></li>
         
-        <li><a href="#">Contact</a></li>
+        <li><a href="${contextPath}/admin/contactUs">Contact Us</a></li>
       </ul>
       
       <c:if test="${pageContext.request.userPrincipal.name != null}">

@@ -83,4 +83,26 @@ public class CentralController {
 		model.addObject("title", "Stock Entry");
 		return model;
 	}
+	
+	@RequestMapping(value = "/admin/aboutUs", method = RequestMethod.GET)
+	public ModelAndView aboutUsPage() {
+
+		ModelAndView model = new ModelAndView("aboutUs");
+		model.addObject("title", "Spring Security About Us Form");
+		model.addObject("message", "This is protected page!");
+
+		return model;
+
+	}
+	
+	@RequestMapping(value = "/admin/contactUs", method = RequestMethod.GET)
+	public ModelAndView contactUsPage() {
+
+		ModelAndView model = new ModelAndView("contactUs");
+		model.addObject("title", "Spring Security Contact Us Form");
+		model.addObject("message", "This is protected page!");
+
+		return model;
+
+	}
 }

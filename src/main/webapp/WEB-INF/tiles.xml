@@ -46,7 +46,20 @@
    <definition name="salesRegister" extends="base-definition">  
        <put-attribute name="title" value="SalesRegister" />  
        <put-attribute name="body" value="/jsp/pages/salesRegister.jsp" /> 
-    </definition>    
+    </definition>
+    
+   <!-- About Us Page -->
+   <definition name="aboutUs" extends="base-definition">  
+       <put-attribute name="title" value="AboutUs" />  
+       <put-attribute name="body" value="/jsp/pages/aboutUs.jsp" /> 
+    </definition> 
+    
+    <!-- Contact Us Page -->
+   <definition name="contactUs" extends="base-definition">  
+       <put-attribute name="title" value="ContactUs" />  
+       <put-attribute name="body" value="/jsp/pages/contactUs.jsp" /> 
+    </definition>
+        
     <!-- Stock Entry Page -->
    <definition name="stockEntry" extends="base-definition">  
        <put-attribute name="title" value="Stock Entry" />  
