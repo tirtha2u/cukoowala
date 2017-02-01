@@ -57,6 +57,7 @@
        <put-attribute name="title" value="Stock Entry" />  
        <put-attribute name="body" value="/jsp/pages/stockEntry.jsp" />  
    </definition>   
+
    <!-- Vendor Master Page -->
    <definition name="vendorMaster" extends="base-definition" >  
        <put-attribute name="title" value="VendorMaster" />  
@@ -69,4 +70,9 @@
        <put-attribute name="body" value="/jsp/pages/customerMaster.jsp" />  
    </definition>
    
+   <!-- Sales Entry Page -->
+   <definition name="salesEntry" extends="base-definition">  
+       <put-attribute name="title" value="Sales Entry" />  
+       <put-attribute name="body" value="/jsp/pages/salesEntry.jsp" />  
+   </definition>   
 </tiles-definitions>

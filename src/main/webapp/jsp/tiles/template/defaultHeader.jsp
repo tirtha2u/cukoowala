@@ -33,7 +33,7 @@
 		  <a href="#" data-toggle="dropdown" class="dropdown-toggle">Transactions <b class="caret"></b></a>
 		  <ul class="dropdown-menu" id="menu1">		   
 		    <li><a href="${contextPath}/admin/stockEntry">Stock Entry</a></li>
-		    <li><a href="#">Sales Entry</a></li>
+		    <li><a href="${contextPath}/admin/salesEntry">Sales Entry</a></li>
 		  </ul>
 		</li>
 		

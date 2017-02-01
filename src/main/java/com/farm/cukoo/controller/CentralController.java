@@ -116,4 +116,13 @@ public class CentralController {
 		return model;
 
 	}
+
+	@RequestMapping(value = "/admin/salesEntry", method = RequestMethod.GET)
+	public ModelAndView salesEntryPage() {
+
+		ModelAndView model = new ModelAndView("salesEntry");
+		model.addObject("title", "Sales Entry");
+		return model;
+	}
+
 }
