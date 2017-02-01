@@ -1,5 +1,7 @@
 package com.farm.cukoo.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -8,11 +10,13 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class CentralController {
+	
+	private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
 	@RequestMapping(value ={ "/", "/welcome**" },method = RequestMethod.GET)
 	public ModelAndView printHello() {
 		
-		System.out.println("Inside controller");
+		logger.info("inside controller");
 		
 		ModelAndView model = new ModelAndView("hello");
 		
@@ -81,5 +85,13 @@ public class CentralController {
 
 		return model;
 
+	}
+	
+	@RequestMapping(value = "/admin/stockEntry", method = RequestMethod.GET)
+	public ModelAndView stockEntryPage() {
+
+		ModelAndView model = new ModelAndView("stockEntry");
+		model.addObject("title", "Stock Entry");
+		return model;
 	}
 }

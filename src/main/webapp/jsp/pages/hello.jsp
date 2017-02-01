@@ -45,7 +45,7 @@
 </head>
 <body>
 
-<p>Welcome note !!!!!</p>
+<p>Go to <a href="/admin/dashboard">Dashboard</a></p>
 
 <footer class="container-fluid text-center">
   <p>Footer Text</p>

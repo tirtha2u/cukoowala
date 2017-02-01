@@ -28,20 +28,20 @@
 			  </div>
 			  <div class="row" style="background-color:lavender;">
 				  <div class="col-sm-4">Nor-Floxacine</div>
-				  <div class="col-sm-4">Vaccine</div>
-				  <div class="col-sm-2">Quantity</div>
+				  <div class="col-sm-3">Vaccine</div>
+				  <div class="col-sm-3">Quantity</div>
 				  <div class="col-sm-2">10</div>
 			  </div>
 			  <div class="row" style="background-color:lavenderblush;">
 				  <div class="col-sm-4">Feed RS-105</div>
-				  <div class="col-sm-4">Feed</div>
-				  <div class="col-sm-2">Kg</div>
+				  <div class="col-sm-3">Feed</div>
+				  <div class="col-sm-3">Kg</div>
 				  <div class="col-sm-2">100</div>
 			  </div>
 			   <div class="row" style="background-color:lavender;">
 				  <div class="col-sm-4">Nor-Floxacine</div>
-				  <div class="col-sm-4">Vaccine</div>
-				  <div class="col-sm-2">Quantity</div>
+				  <div class="col-sm-3">Vaccine</div>
+				  <div class="col-sm-3">Quantity</div>
 				  <div class="col-sm-2">10</div>
 			  </div>
 			</form>
