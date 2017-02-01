@@ -1,7 +1,7 @@
 <nav class="navbar navbar-inverse" id="navBar">
   <div class="container-fluid">
     <div class="navbar-header">      
-      <a class="navbar-brand" href="#"><img class="img-responsive" src="${pageContext.request.contextPath}/images/hen.jpg" alt="Logo" style="height:50px;padding-bottom:10px"></a>
+      <a class="navbar-brand" href="#"><img class="img-responsive" src="${pageContext.request.contextPath}/images/chickenhead.png" alt="Logo" style="height:50px;padding-bottom:10px"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -22,10 +22,10 @@
 		            <li><a href="#">One more separated link</a></li>
 		        </ul>
 		    </li> -->
-		    <li><a href="#">Vendor Master</a></li>
-		    <li><a href="#">Customer Master</a></li>
+		    <li><a href="${contextPath}/admin/vendorMaster">Vendor Master</a></li>
+		    <li><a href="${contextPath}/admin/customerMaster">Customer Master</a></li>
 		    <li class="divider"></li>
-		    <li><a href="#">Item Master</a></li>
+		    <li><a href="${contextPath}/admin/itemMaster">Item Master</a></li>
 		  </ul>
 		</li>
 		
@@ -33,7 +33,7 @@
 		  <a href="#" data-toggle="dropdown" class="dropdown-toggle">Transactions <b class="caret"></b></a>
 		  <ul class="dropdown-menu" id="menu1">		   
 		    <li><a href="${contextPath}/admin/stockEntry">Stock Entry</a></li>
-		    <li><a href="#">Sales Entry</a></li>
+		    <li><a href="${contextPath}/admin/salesEntry">Sales Entry</a></li>
 		  </ul>
 		</li>
 		

@@ -36,6 +36,17 @@ public class CentralController {
 
 	}
 	
+	@RequestMapping(value = "/admin/itemMaster", method = RequestMethod.GET)
+	public ModelAndView itemMasterPage() {
+
+		ModelAndView model = new ModelAndView("itemMaster");
+		model.addObject("title", "Item Master");
+		model.addObject("message", "This is protected page!");
+
+		return model;
+
+	}
+	
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public ModelAndView login(
 		@RequestParam(value = "error", required = false) String error,
@@ -89,10 +100,17 @@ public class CentralController {
 
 		ModelAndView model = new ModelAndView("aboutUs");
 		model.addObject("title", "Spring Security About Us Form");
+		return model;
+	}
+	
+	@RequestMapping(value = "/admin/vendorMaster", method = RequestMethod.GET)
+	public ModelAndView vendorMasterPage() {
+
+		ModelAndView model = new ModelAndView("vendorMaster");
+		model.addObject("title", "Vendor Master");
 		model.addObject("message", "This is protected page!");
 
 		return model;
-
 	}
 	
 	@RequestMapping(value = "/admin/contactUs", method = RequestMethod.GET)
@@ -100,9 +118,26 @@ public class CentralController {
 
 		ModelAndView model = new ModelAndView("contactUs");
 		model.addObject("title", "Spring Security Contact Us Form");
+		
+		return model;
+	}
+	
+	@RequestMapping(value = "/admin/customerMaster", method = RequestMethod.GET)
+	public ModelAndView customerMasterPage() {
+
+		ModelAndView model = new ModelAndView("customerMaster");
+		model.addObject("title", "Customer Master");
 		model.addObject("message", "This is protected page!");
 
 		return model;
-
 	}
+
+	@RequestMapping(value = "/admin/salesEntry", method = RequestMethod.GET)
+	public ModelAndView salesEntryPage() {
+
+		ModelAndView model = new ModelAndView("salesEntry");
+		model.addObject("title", "Sales Entry");
+		return model;
+	}
+
 }

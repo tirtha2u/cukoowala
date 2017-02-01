@@ -3,6 +3,6 @@
 	   <p>ADS</p>
 	 </div>
 	 <div class="well">
-	   <p>ADS</p>
+	   <img class="img-responsive" src="${pageContext.request.contextPath}/images/animated_gif.gif" alt="add"/>
 	 </div>
 </div>
