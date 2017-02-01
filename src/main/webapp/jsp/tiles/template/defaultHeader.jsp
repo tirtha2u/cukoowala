@@ -1,7 +1,7 @@
 <nav class="navbar navbar-inverse" id="navBar">
   <div class="container-fluid">
     <div class="navbar-header">      
-      <a class="navbar-brand" href="#"><img class="img-responsive" src="${pageContext.request.contextPath}/images/hen.jpg" alt="Logo" style="height:50px;padding-bottom:10px"></a>
+      <a class="navbar-brand" href="#"><img class="img-responsive" src="${pageContext.request.contextPath}/images/chickenhead.png" alt="Logo" style="height:50px;padding-bottom:10px"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
