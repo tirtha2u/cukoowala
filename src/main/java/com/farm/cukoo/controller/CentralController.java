@@ -94,4 +94,26 @@ public class CentralController {
 		model.addObject("title", "Stock Entry");
 		return model;
 	}
+	
+	@RequestMapping(value = "/admin/vendorMaster", method = RequestMethod.GET)
+	public ModelAndView vendorMasterPage() {
+
+		ModelAndView model = new ModelAndView("vendorMaster");
+		model.addObject("title", "Vendor Master");
+		model.addObject("message", "This is protected page!");
+
+		return model;
+
+	}
+
+	@RequestMapping(value = "/admin/customerMaster", method = RequestMethod.GET)
+	public ModelAndView customerMasterPage() {
+
+		ModelAndView model = new ModelAndView("customerMaster");
+		model.addObject("title", "Customer Master");
+		model.addObject("message", "This is protected page!");
+
+		return model;
+
+	}
 }

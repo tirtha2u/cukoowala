@@ -22,8 +22,8 @@
 		            <li><a href="#">One more separated link</a></li>
 		        </ul>
 		    </li> -->
-		    <li><a href="#">Vendor Master</a></li>
-		    <li><a href="#">Customer Master</a></li>
+		    <li><a href="${contextPath}/admin/vendorMaster">Vendor Master</a></li>
+		    <li><a href="${contextPath}/admin/customerMaster">Customer Master</a></li>
 		    <li class="divider"></li>
 		    <li><a href="${contextPath}/admin/itemMaster">Item Master</a></li>
 		  </ul>
