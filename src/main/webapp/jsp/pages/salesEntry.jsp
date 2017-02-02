@@ -1,6 +1,6 @@
 <div class="col-sm-8 text-left" style="padding-top:15px"> 
-   	<div class="panel panel-info">
-	  	<div class="panel-heading">Sales Entry</div>
+   	<div class="panel panel-primary">
+	  	<div class="panel-heading" style="background-color:#264d73"><b>Sales Entry</b></div>
 	  	<div class="panel-body">		  	
 			<form class="form-horizontal">
 			<div class="row">
