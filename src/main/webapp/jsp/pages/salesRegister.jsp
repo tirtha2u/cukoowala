@@ -67,4 +67,3 @@ $('#editable-select').editableSelect();
 	  	
 	  	</div>
 	</div>
-  </div>

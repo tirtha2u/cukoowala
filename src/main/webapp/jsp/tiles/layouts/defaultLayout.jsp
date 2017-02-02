@@ -7,13 +7,13 @@
   <title><tiles:getAsString name="title" /></title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/common.css">
   
 </head>  
 <body>
 	<tiles:insertAttribute name="header" />
-	<div class="container-fluid text-center" style="height:82%">    
+	<div class="container-fluid text-center">    
  		<div class="row content">
 	 		<section id="body-left-panel">
 				<tiles:insertAttribute name="leftPanel" />
@@ -29,8 +29,8 @@
 	<tiles:insertAttribute name="footer" />	
 </body>
 
-<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>  
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="/js/jquery-1.12.4.min.js"></script>  
+<script src="/js/bootstrap.min.js"></script>
 <script src="/js/bootstrap-datepicker.js"></script>
 <script type="text/javascript">
 	$(document).ready(function () {
@@ -38,7 +38,7 @@
 	    $('#example1').datepicker({
 	        format: "dd/mm/yyyy"
 	    });  
-	
+	    /* $(".sidenav").css("height", $(".body-content").height()); */
 	});
 	function formSubmit() {
 		document.getElementById("logoutForm").submit();
