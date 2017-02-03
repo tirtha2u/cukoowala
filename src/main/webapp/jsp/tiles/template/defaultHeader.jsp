@@ -5,7 +5,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a href="${contextPath}/admin/dashboard">Home</a></li>
         
         <li class="dropdown">
 		  <a href="#" data-toggle="dropdown" class="dropdown-toggle">Masters <b class="caret"></b></a>
