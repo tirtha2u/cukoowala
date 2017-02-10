@@ -18,7 +18,7 @@ public class CentralController {
 		
 		logger.info("inside controller");
 		
-		ModelAndView model = new ModelAndView("hello");
+		ModelAndView model = new ModelAndView("login");
 		
 		model.addObject("message", "Hello Spring MVC Framework!");
 
@@ -139,5 +139,14 @@ public class CentralController {
 		model.addObject("title", "Sales Entry");
 		return model;
 	}
+	
+	@RequestMapping(value = "/admin/lotManagement", method = RequestMethod.GET)
+	public ModelAndView lotManagementPage() {
+
+		ModelAndView model = new ModelAndView("lotManagement");
+		model.addObject("title", "Lot Management");
+		return model;
+	}
+
 
 }

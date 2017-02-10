@@ -27,7 +27,8 @@
    <!-- Hello Page -->
    <definition name="hello" extends="base-definition-without-layout">  
        <put-attribute name="title" value="hello" />  
-       <put-attribute name="body" value="/jsp/pages/hello.jsp" />  
+       <!-- <put-attribute name="body" value="/jsp/pages/hello.jsp" /> --> 
+       <put-attribute name="body" value="/jsp/pages/hello.jsp" /> 
    </definition>
    
    <!-- Login Page -->
@@ -87,5 +88,10 @@
    <definition name="salesEntry" extends="base-definition">  
        <put-attribute name="title" value="Sales Entry" />  
        <put-attribute name="body" value="/jsp/pages/salesEntry.jsp" />  
-   </definition>   
+   </definition>
+   <!-- Lot Management -->
+   <definition name="lotManagement" extends="base-definition">  
+       <put-attribute name="title" value="Lot Management" />  
+       <put-attribute name="body" value="/jsp/pages/lotManagement.jsp" />  
+   </definition>      
 </tiles-definitions>

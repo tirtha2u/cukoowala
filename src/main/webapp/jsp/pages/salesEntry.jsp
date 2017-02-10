@@ -4,15 +4,17 @@
 	  	<div class="panel-body">		  	
 			<form class="form-horizontal">
 			<div class="row">
-				  <div class="col-md-6 col-md-offset-3">
-				    <label class="control-label col-sm-2" for="email">Type:</label>				    
-				    <div class="col-sm-10">
-	                	<select class="form-control" id="type">
+				  			  
+				  <div class="form-group col-sm-6">
+				   <label class="control-label col-sm-4" for="email">Type:</label>
+				   <div class="col-sm-8">
+				   		<select class="form-control" id="vendorOrCustomerId">
 						  <option>Vendor</option>
-						  <option>Customer</option>					  
-						</select></br>
-	            	</div>
-				  </div>
+						  <option>Customer</option>
+						</select>
+				   </div>
+				 </div>
+				  
 			  </div>
 			 
 			  <div class="row">
@@ -78,18 +80,20 @@
 			  </div>
 			  
 			  <div class="row" style="background-color:lightgrey;margin-left:0px;margin-right:0px">
-				  <div class="col-sm-3"><strong>Item</strong></div>
+				  <div class="col-sm-2"><strong>Item</strong></div>
 				  <div class="col-sm-2"><strong>Quantity</strong></div>
-				  <div class="col-sm-3"><strong>Unit Of Measure</strong></div>
+				  <div class="col-sm-2"><strong>Unit Of Measure</strong></div>
 				  <div class="col-sm-2"><strong>Price</strong></div>
-				  <div class="col-sm-2"><strong>Amount</strong></div>				  
+				  <div class="col-sm-2"><strong>Amount</strong></div>
+				  <div class="col-sm-2"><strong>Edit</strong></div>				  
 			  </div>
 			  <div class="row" style="background-color:lavender;margin-left:0px;margin-right:0px"">
-				  <div class="col-sm-3"><a href="#">Chick</a></div>
+				  <div class="col-sm-2"><a href="#">Chick</a></div>
 				  <div class="col-sm-2">200</div>
-				  <div class="col-sm-3">KG</div>
+				  <div class="col-sm-2">KG</div>
 				  <div class="col-sm-2">100</div>
-				  <div class="col-sm-2">20000</div>				  
+				  <div class="col-sm-2">20000</div>	
+				  <div class="col-sm-2"><a href="#"><span class="glyphicon glyphicon-remove"></span></a></div>				  			  
 			  </div>
 			  <div class="row" style="background-color:lavenderblush;margin-left:0px;margin-right:0px"">
 				  <div class="col-sm-3"><a href="#">Feed RS-105</a></div>

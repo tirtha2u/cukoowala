@@ -4,9 +4,9 @@
 	  	<div class="panel-body">		  	
 			<form class="form-horizontal">
 			<div class="row">
-				  <div class="col-md-8 col-md-offset-1">
-				    <label class="control-label col-sm-6" for="email">Received Date:</label>
-				    <div class="col-sm-6">
+				  <div class="col-sm-12">
+				    <label class="control-label col-sm-2" for="email">Received Date:</label>
+				    <div class="col-sm-5">
 	                	<input  type="text" class="form-control" placeholder="Select date"  id="example1" /></br>
 	            	</div>
 				  </div>
